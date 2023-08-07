@@ -1,0 +1,81 @@
+body {
+  background-image: url(https://img.freepik.com/premium-vector/technology-hexagon-dark-futuristic-abstract-vector-background-with-pink-blue-colored-bright-flashes-hexagon-hexagonal-gaming-honeycomb-abstract-background_156943-959.jpg);
+}
+header{
+  /* border: 2px solid black; */
+  font-family: 'Acme', sans-serif;
+font-family: 'Eagle Lake', cursive;
+font-family: 'Libre Baskerville', serif;
+  font-size: 50px;
+  color:cornsilk;
+  margin: 0px;
+  padding: 10px;
+
+}
+.left {
+  height: 100px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* left: 70px; */
+  top: 5px;
+}
+#left1 {
+  /* border: 2px solid black; */
+  height: 80px;
+  width: 100px;
+}
+.left img {
+  width: 100px;
+}
+.btn1{
+  font-size:30px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.box{
+  display:inline-block;
+  /* border: 2px solid black; */
+  width:200px;
+  height: 300px;
+  margin: 3px;
+  padding: 2px 2px;
+  font size:20px;
+  color:white;
+  font-family:cursive;
+  
+}
+.box:hover{
+  height:300px;
+  width: 180px;
+  box-shadow:3px 3px white;
+  cursor: pointer;
+}
+
+.btn2{
+  font-size: 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn2:hover{
+  border-radius: 0px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9EOTu8Ern27F3qf20s-euV4ZVcOxEPJ22OOU0BMC_bVAm7eAlRpmpN048GxLnDBg5t7U&usqp=CAU);
+  cursor: grab;
+  
+}
+.btn1:hover{
+  border-radius: 0px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9EOTu8Ern27F3qf20s-euV4ZVcOxEPJ22OOU0BMC_bVAm7eAlRpmpN048GxLnDBg5t7U&usqp=CAU);
+  cursor: grab;
+  
+}
+#line{
+  color: bisque;
+  font-family: 'Acme', sans-serif;
+font-family: 'Libre Baskerville', serif;
+}
+
+
+
